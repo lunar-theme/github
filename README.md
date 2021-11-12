@@ -2,9 +2,10 @@
 
 ![[Banner]](https://socialify.git.ci/azure-moon/moonhub/image?description=1&descriptionEditable=a%20github%20theme%20inspired%20by%20space%20%F0%9F%9A%80&font=Raleway&language=1&name=1&owner=1&theme=Dark)
 
-## 💻 Installation
+## ❗ Prerequisites
+[Stylus browser extension](https://github.com/openstyles/stylus#releases)
 
-The only thing you need to have installed before trying to install nordhub is the [stylus](https://github.com/openstyles/stylus) browser extension
+## 💻 Installation
 
 For now dark mode is **required** for the theme to work.
 
