@@ -15,13 +15,13 @@ For now dark mode is **required** for the theme to work.
 ## 🎨 Recommended extensions and styles
 
 
-🛡️ [Enhanced GitHub](https://github.com/softvar/enhanced-github) | Enhances GitHub!
+🛡️ [Enhanced GitHub](https://github.com/softvar/enhanced-github#supported-browsers) | Enhances GitHub!
 
-🌟 [Refined GitHub](https://github.com/refined-github/refined-github) | Refines GitHub
+🌟 [Refined GitHub](https://github.com/refined-github/refined-github#install) | Refines GitHub
 
 🍴 [Lovely Forks](https://github.com/musically-ut/lovely-forks) | Shows notable forks of GitHub projects
 
-🕴️ [Hide Files](https://github.com/sindresorhus/hide-files-on-github) | Hides nonessential files on github
+🕴️ [Hide Files](https://github.com/sindresorhus/hide-files-on-github#install) | Hides nonessential files on github
 
 
 ## 👤 Author
