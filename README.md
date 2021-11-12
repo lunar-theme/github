@@ -8,7 +8,7 @@ The only thing you need to have installed before trying to install nordhub is th
 
 For now dark mode is **required** for the theme to work.
 
-[Click here to install nordhub](https://github.com/azure-moon/moonhub/raw/main/moonhub.user.css)
+[Click here to install moonhub](https://github.com/azure-moon/moonhub/raw/main/moonhub.user.css)
 
 
 ## 🎨 Recommended extensions and styles
