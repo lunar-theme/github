@@ -16,7 +16,7 @@ For now dark mode is **required** for the theme to work.
 
 🛡️ [Enhanced GitHub](https://github.com/softvar/enhanced-github) | Enhances GitHub!
 
-🌟 [Refined GitHub](https://33kk.github.io/uso-archive/?style=95280) | Refines GitHub
+🌟 [Refined GitHub](https://github.com/refined-github/refined-github) | Refines GitHub
 
 🍴 [Lovely Forks](https://github.com/musically-ut/lovely-forks) | Shows notable forks of GitHub projects
 
