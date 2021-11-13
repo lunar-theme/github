@@ -21,11 +21,18 @@
     --accent-lighter: #02a3e8;
     --accent-lightest: #02bbe8;
     --text-color: #ffffff;
-    --white: #ffffff    ;
+    --white: #ffffff;
     --green: lightgreen;
     --orange: #d08770;
     --yellow: #ebcb8b;
     --red: #bf616a; 
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans'), url('ProductSans-Regular.woff') format('woff');
 }
 
 body {
