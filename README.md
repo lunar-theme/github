@@ -2,6 +2,10 @@
 
 ![[Banner]](https://socialify.git.ci/azure-moon/moonhub/image?description=1&descriptionEditable=a%20github%20theme%20inspired%20by%20space%20%F0%9F%9A%80&font=Raleway&language=1&name=1&owner=1&theme=Dark)
 
+## 🖼️ Preview
+
+![Preview](./img/preview.png)
+
 ## ❗ Prerequisites
 [Stylus browser extension](https://github.com/openstyles/stylus#releases)
 
