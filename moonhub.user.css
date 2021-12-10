@@ -10,6 +10,8 @@
 @license      CC-BY-4.0
 ==/UserStyle== */
 
+@-moz-document domain('github.com') {
+
 :root {
     --bg: #161616;
     --bg-light: #151515;
@@ -999,4 +1001,5 @@ hr, .rule {
 
 .flex-auto.col-md-8.col-lg-8.px-3.px-lg-5 {
     background: var(--bg);
+	}
 }
