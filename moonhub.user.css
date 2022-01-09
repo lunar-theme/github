@@ -6,7 +6,7 @@
 @supportURL   https://github.com/lunar-theme/moonhub/issues
 @updateURL    https://github.com/lunar-theme/moonhub/raw/main/moonhub.user.css
 @author       sheep <hi@sheepdev.xyz> (https://sheepdev.xyz)
-@version      2.0.0
+@version      2.1.0
 @license      CC-BY-4.0
 ==/UserStyle== */
 
@@ -14,32 +14,30 @@
 
 :root {
     --bg: #161616;
-    --bg-light: #151515;
-    --bg-lighter: #202020; 
+    --bg-light: #202020;
+    --bg-lighter: #252525; 
     --bg-lightest: #303030;
-    --bg-transparent: #2e3340f1;
+    --bg-transparent: #161616f1;
     --accent: #3281ea;
     --accent-light: #0284e8;
     --accent-lighter: #02a3e8;
     --accent-lightest: #02bbe8;
-    --text-color: #ffffff;
-    --white: #ffffff;
-    --green: lightgreen;
-    --orange: #d08770;
-    --yellow: #ebcb8b;
-    --red: #bf616a; 
+    --text-color: #f3f3f3;
+    --white: #d4d7db;
+    --green: #a3be8c;
+    --red: #B10C0C;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text-color)
 }
 
 @font-face {
     font-family: 'Product Sans';
     font-style: normal;
     font-weight: normal;
-    src: local('Product Sans'), url('ProductSans-Regular.woff') format('woff');
-}
-
-body {
-    background: var(--bg);
-    color: var(--text-color)
+    src: local('Product Sans'), url('https://github.com/lunar-theme/moonhub/raw/main/ProductSans-Regular.woff') format('woff');
 }
 
 .Box, .color-bg-primary, .gh-header, .orghead, .Box-row--gray {
@@ -68,10 +66,14 @@ a {
     color: var(--accent)
 }
 
-.Header, .color-bg-secondary, .timeline-comment, .timeline-comment-header, .gh-header .gh-header-sticky.is-stuck + .gh-header-shadow, .header-search-wrapper, .jump-to-field-active, .color-bg-tertiary, .color-bg-canvas-inset, .markdown-body img, .rgh-clean-dashboard .js-news-feed-event-group, .rgh-clean-dashboard .dashboard .flex-items-baseline.py-3 {
+.color-bg-secondary, .timeline-comment, .timeline-comment-header, .gh-header .gh-header-sticky.is-stuck + .gh-header-shadow, .jump-to-field-active, .color-bg-tertiary, .color-bg-canvas-inset, .markdown-body img, .rgh-clean-dashboard .js-news-feed-event-group, .rgh-clean-dashboard .dashboard .flex-items-baseline.py-3 {
     background: var(--bg) !important;
     color: var(--text-color);
     border: none;
+}
+
+.Header, .header-search-wrapper {
+    background: var(--bg-light)
 }
 
 .timeline-comment--caret::before {
@@ -490,7 +492,7 @@ a > .css-truncate, .follow-list .follow-list-info {
 }
 
 .form-control {
-    background-color: var(--bg);
+    background-color: var(--bg-light);
 }
 
 .markdown-body .highlight pre, .markdown-body pre {
@@ -1001,5 +1003,9 @@ hr, .rule {
 
 .flex-auto.col-md-8.col-lg-8.px-3.px-lg-5 {
     background: var(--bg);
+}
+
+.Link--primary {
+    color: var(--text-color) !important;
 	}
 }
