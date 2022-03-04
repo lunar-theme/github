@@ -2,7 +2,7 @@
 
 ![[Banner]](https://socialify.git.ci/lunar-theme/moonhub/image?description=1&descriptionEditable=a%20github%20theme%20inspired%20by%20space%20%F0%9F%9A%80&font=Raleway&language=1&name=1&owner=1&theme=Dark)
 
-## 🖼️ Preview
+## 🖼️  Gallery
 
 ![Preview](./img/preview.png)
 
