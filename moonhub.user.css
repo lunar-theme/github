@@ -12,1000 +12,1012 @@
 
 @-moz-document domain('github.com') {
 
-:root {
-    --bg: #161616;
-    --bg-light: #202020;
-    --bg-lighter: #252525; 
-    --bg-lightest: #303030;
-    --bg-transparent: #161616f1;
-    --accent: #3281ea;
-    --accent-light: #0284e8;
-    --accent-lighter: #02a3e8;
-    --accent-lightest: #02bbe8;
-    --text-color: #f3f3f3;
-    --white: #d4d7db;
-    --green: #a3be8c;
-    --red: #B10C0C;
-}
-
-body {
-    background: var(--bg);
-    color: var(--text-color)
-}
-
-@font-face {
-    font-family: 'Product Sans';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Product Sans'), url('https://github.com/lunar-theme/moonhub/raw/main/ProductSans-Regular.woff') format('woff');
-}
-
-.Box, .color-bg-primary, .gh-header, .orghead, .Box-row--gray {
-    background: var(--bg) !important;
-}
-
-.Box--responsive, .Box-header--blue, .Box-row {
-    border: none;
-}
-
-.Box-header--blue {
-    background: var(--bg-light)
-}
-
-.Box.mb-3 {
-    background: var(--bg-light) !important;
-    border-radius: 20px !important;
-    border: none;
-}
-
-.Box-header--blue {
-    border-radius: 20px;
-}
-
-a {
-    color: var(--accent)
-}
-
-.color-bg-secondary, .timeline-comment, .timeline-comment-header, .gh-header .gh-header-sticky.is-stuck + .gh-header-shadow, .jump-to-field-active, .color-bg-tertiary, .color-bg-canvas-inset, .markdown-body img, .rgh-clean-dashboard .js-news-feed-event-group, .rgh-clean-dashboard .dashboard .flex-items-baseline.py-3 {
-    background: var(--bg) !important;
-    color: var(--text-color);
-    border: none;
-}
-
-.Header, .header-search-wrapper {
-    background: var(--bg-light)
-}
-
-.timeline-comment--caret::before {
-    background-color: var(--bg) !important;
-}
-
-.State--open {
-    background: var(--green);
-    color: var(--text-color);
-    border: none;
-}
-
-.gh-header-meta, .Link--secondary, .color-text-secondary, .color-text-tertiary, .UnderlineNav-octicon, .UnderlineNav-item {
-    color: var(--text-color) !important;
-}
-
-.Link--secondary:hover, .social-count:hover {
-    color: var(--accent) !important;
-}
-
-.jump-to-suggestions-results-container .navigation-focus .jump-to-suggestions-path, .jump-to-suggestions-results-container [aria-selected="true"] .jump-to-suggestions-path {
-    background: var(--accent);
-    border: none;
-}
-
-.jump-to-suggestions {
-    box-shadow: none;
-    border-radius: 20px;
-    border: none;
-}
-
-.UnderlineNav .Counter {
-    background: var(--bg-lightest);
-    color: var(--text-color);
-}
-
-.UnderlineNav-item.selected, .UnderlineNav-item[aria-current]:not([aria-current="false"]), .UnderlineNav-item[role="tab"][aria-selected="true"] {
-    border-bottom-color: var(--accent)
-}
-
-.btn.hover, .btn:hover, [open] > .btn, .btn, .social-count {
-    background: var(--bg-light);
-    border: none;
-}
-
-.text-pink {
-    color: var(--accent) !important;
-}
-
-.btn .octicon, .subnav-search-icon, .subnav-search-input, .subnav-search-input::placeholder {
-    color: var(--text-color);
-}
-
-.SelectMenu-modal {
-    border: none;
-    border-radius: 20px;
-    background: var(--bg-light);
-    box-shadow: none;
-}
-
-.SelectMenu-item, .SelectMenu-list {
-    background: var(--bg-light);
-}
-
-.menu {
-    background: var(--bg-light);
-    border-radius: 20px;
-    border: none;
-}
-
-.menu-item, .repo-language-color {
-    border: none;
-}
-
-.input-contrast, .input-contrast:focus {
-    background: var(--bg-light);
-    border: none;
-}
-
-.form-control.focus, .form-control:focus, .form-select.focus, .form-select:focus {
-    box-shadow: none;
-}
-
-.open.octicon {
-    color: var(--green)
-}
-
-.Link--primary:hover, .p-label:hover, .team-mention:hover, .user-mention:hover, .Link--muted:hover {
-    color: var(--accent) !important;
-}
-
-.p-label, .repo {
-    color: var(--text-color)
-}
-
-.color-border-secondary, .border-bottom, .py-3, .rgh-clean-dashboard .dashboard .js-all-activity-header + div {
-    border: none !important;
-}
-
-.Link--muted {
-     color: var(--text-color) !important;
-}
-
-.rgh-clean-dashboard .dashboard .flex-items-baseline .f6.mt-2 {
-    opacity: 100% !important;
-}
-
-.input-contrast::placeholder {
-    color: var(--text-color)
-}
-
-.f4 > a {
-    color: var(--text-color)
-}
-
-.owner .text-normal, .btn-primary.disabled, .btn-primary:disabled, .btn-primary[aria-disabled="true"] {
-    color: var(--text-color) !important;
-}
-
-.text-bold.min-width-0.flex-auto > span, .text-bold.min-width-0.flex-auto, .TimelineItem-badge {
-    color: var(--text-color)
-}
-
-.markdown-body h1, .markdown-body h2 {
-    border: none;
-}
-
-.color-text-success {
-    color: var(--green) !important;
-}
-
-.discussion-timeline-actions, .page-responsive .previewable-comment-form .comment-form-head.tabnav, .tabnav-tab.selected, .tabnav-tab[aria-current]:not([aria-current="false"]), .tabnav-tab[aria-selected="true"], .timeline-comment--caret.current-user::before {
-    background: var(--bg);
-    border: none;
-}
-
-.TimelineItem::before, .TimelineItem-badge {
-    background: var(--bg-lightest) !important;
-    border: none;
-}
-
-.TimelineItem-badge {
-    background: var(--accent) !important;
-}
-
-.color-text-danger {
-    color: var(--red) !important;
-}
-
-.btn-primary.disabled, .btn-primary:disabled, .btn-primary[aria-disabled="true"] {
-    background: var(--green);
-    border: none;
-    opacity: 70%
-}
-
-.dropdown-menu, .merge-status-item, .merge-status-list {
-    background: var(--bg-light);
-    border: none;
-    box-shadow: none;
-    border-radius: 20px;
-}
-
-.checks-list-item.selected .checks-list-item-name {
-    background: var(--accent) !important;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-
-.color-bg-success-inverse {
-    background: var(--green) !important;
-}
-
-.commit-ref {
-    border-radius: 10px;
-    background: var(--accent)
-}
-
-.commit-ref > .css-truncate-target > a {
-    color: var(--text-color)
-}
-
-.full-commit, .full-commit .commit-meta, .file {
-    background: var(--bg);
-    border: none;
-}
-
-.file-header, .file {
-    background: var(--bg-light);
-    border-radius: 20px;
-}
-
-.js-expandable-line:hover .blob-num:not(:hover) .directional-expander:first-child, .js-expandable-line:hover .blob-num:not(:hover) + .blob-code, .blob-num-expandable .directional-expander:hover, .blob-num-expandable .directional-expander, tr.js-expandable-line:nth-child(16) > td:nth-child(2), .blob-expanded .blob-code, .blob-expanded .blob-num, .btn.selected, .btn[aria-selected="true"] {
-    background: var(--bg-light) !important;
-}
-
-tr.js-expandable-line:nth-child(56) > td:nth-child(2) {
-    background: var(--bg-light) !important;
-}
-
-tr:not(.blob-expanded) + .blob-expanded .blob-code, tr:not(.blob-expanded) + .blob-expanded .blob-num, .blob-expanded + tr:not(.blob-expanded) .blob-code, .blob-expanded + tr:not(.blob-expanded) .blob-num {
-    border: none;
-}
-
-tr.js-expandable-line:nth-child(16) {
-    border-bottom-left-radius: 20px !important;
-}
-
-.js-expandable-line:hover .blob-num:not(:hover) .directional-expander:first-child, .js-expandable-line:hover .blob-num:not(:hover) + .blob-code {
-    background: var(--accent) !important;
-}
-
-.blob-code-deletion .x, .blob-code-deletion, .blob-num-deletion {
-    background: var(--red)
-}
-
-.blob-code-addition, .blob-code-addition .x, .blob-num-addition {
-    background: var(--green)
-}
-
-.blob-num-addition, .commit-branches {
-    color: var(--text-color)
-}
-
-.blob-code-inner, .blob-code-deletion .x, .blob-code-addition .x {
-    color: #FFFFFF
-}
-
-.pl-smw, .pl-v {
-    color: var(--accent-lightest)
-}
-
-.blob-num-deletion {
-    color: var(--text-color)
-}
-
-.upload-enabled.focused {
-    box-shadow: none;
-}
-
-.upload-enabled textarea {
-    border: none;
-}
-
-.btn-link, .btn-outline:hover, [open] > .btn-outline, .btn-outline, [open] > .btn-outline {
-    color: var(--accent);
-}
-
-.diffstat-block-added {
-    outline: none;
-    background: var(--green)
-}
-
-.diffstat-block-deleted {
-    outline: none;
-    background: var(--red);
-}
-
-.diffstat-block-neutral {
-    outline: none;
-    background: var(--bg-lightest)
-}
-
-a > .css-truncate, .follow-list .follow-list-info {
-    color: var(--text-color); 
-}
-
-.tabnav-tab, .Counter {
-    border: none;
-}
-
-.Counter {
-    background: var(--bg-lightest)
-}
-
-.btn-outline.disabled, .btn-outline:disabled, .btn-outline[aria-disabled="true"], .BtnGroup > a {
-    background: var(--bg-light);
-    color: var(--text-color);
-}
-
-.btn-outline:disabled:hover {
-    color: var(--accent)
-}
-
-.Box {
-    border: none;
-    box-shadow: none !important;
-}
-
-.border, .dropdown-divider {
-    border: none !important;
-}
-
-#feature-enrollment-toggle > button {
-    color: var(--text-color);
-}
-
-.dropdown-item:focus, .dropdown-item:hover {
-    background: var(--accent)
-}
-
-.css-truncate.css-truncate-target.width-fit.color-text-primary.text-left > span:hover, .js-user-status-details.details-reset.details-overlay.details-overlay-dark:hover {
-    color: var(--accent)
-}
-
-.Box-header {
-    background: var(--bg-light);
-    border: none;
-}
-
-.blankslate p, .blankslate-icon, .issue-meta-section .octicon, .TimelineItem--condensed .TimelineItem-badge {
-    color: var(--text-color)
-}
-
-.subnav-item.selected, .subnav-item[aria-current]:not([aria-current="false"]), .subnav-item[aria-selected="true"] {
-    background: var(--accent);
-    border: none;
-}
-
-.merged.octicon {
-    color: var(--accent-light)
-}
-
-.TimelineItem-badge.color-text-white.color-bg-danger-inverse[style*=background-color] {
-    --color-done-emphasis: var(--red) !important;
-}
-
-.issue-closed-done .octicon-issue-closed, .issue-closed-done .octicon-issue-closed.closed {
-    color: var(--red)
-}
-
-.js-issue-row .text-gray [aria-label*="approval"]::before, .js-issue-row .color-text-secondary [aria-label*="approval"]::before {
-    color: var(--green) !important;
-}
-
-.rgh-collaborator {
-    border: none !Important;
-}
-
-.State--merged, .rgh-clean-conversation-headers-non-default-branch {
-    color: var(--text-color);
-    background: var(--accent-light);
-    border: none;
-}
-
-.signed-commit-badge.verified:hover {
-    border: none;
-}
-
-.signed-commit-badge.verified, .signed-commit-verified-label, .signed-commit-header .octicon-verified {
-    color: var(--green)
-}
-
-.TimelineItem-break {
-    background: var(--bg);
-    border: none;
-}
-
-.btn {
-    border-radius: 10px;
-}
-
-.diffbar, .signed-commit-header, .ajax-pagination-form .ajax-pagination-btn:focus, .ajax-pagination-form .ajax-pagination-btn:hover, .ajax-pagination-form .ajax-pagination-btn:focus, .ajax-pagination-form .ajax-pagination-btn {
-    background: var(--bg);
-    color: var(--text-color);
-}
-
-.State--closed {
-    background: var(--red);
-    color: var(--text-color);
-    border: none;
-}
-
-.markdown-body code, .markdown-body tt {
-    background: var(--bg-lightest)
-}
-
-.filter-item.selected, .filter-item[aria-current]:not([aria-current="false"]), .filter-item[aria-selected="true"] {
-    background: var(--accent)
-}
-
-.subnav-item {
-    border: none;
-}
-
-.color-bg-canvas {
-    background: var(--bg) !important;
-}
-
-.Progress-item.rounded-2[style*="background-color"] {
-    background-color: var(--green) !important;
-}
-
-.ContributionCalendar-day, .ContributionCalendar-day[data-level="0"] {
-    fill: var(--bg-lightest)
-}
-
-.ContributionCalendar-day[data-level="1"] {
-    fill: var(--accent);   
-}
-
-.ContributionCalendar-day[data-level="2"] {
-    fill: var(--accent-light);
-}
-
-.ContributionCalendar-day[data-level="3"] {
-    fill: var(--accent-lighter);      
-}
-
-.ContributionCalendar-day[data-level="4"] {
-    fill: var(--accent-lightest);   
-}
-
-.gist-snippet .link-overlay .link {
-    background: var(--accent);
-    border-bottom-left-radius: 10px;
-}
-
-.form-control {
-    background-color: var(--bg-light);
-}
-
-.markdown-body .highlight pre, .markdown-body pre {
-    background: var(--bg-light)
-}
-
-.flash {
-    background-color: var(--accent);
-    border: none;
-    border-radius: 20px;
-    color: var(--text-color);
-}
-
-.label.color-bg-info-inverse {
-    background-color: var(--accent) !important;
-    border: none;
-    color: var(--text-color);
-    text-transform: lowercase !important;
-}
-
-.hx_color-icon-directory, .color-icon-tertiary, .Counter--secondary {
-    color: var(--text-color) !important;
-}
-
-.Box-body.p-0.blob-wrapper.data.type-text.gist-border-0.rgh-linkified-code {
-    background-color: var(--bg-light)
-}
-
-.menu-item.selected, .menu-item[aria-current]:not([aria-current="false"]), .menu-item[aria-selected="true"], .menu-item:hover {
-    background-color: var(--bg-lighter)
-}
-
-.menu-item.selected::before, .menu-item[aria-current]:not([aria-current="false"])::before, .menu-item[aria-selected="true"]::before {
-    background: var(--accent)
-}
-
-.Box-row--focus-gray.navigation-focus {
-    background-color: var(--bg-lighter)
-}
-
-.community-checklist .checklist-dot {
-    color: var(--orange)
-}
-
-.d-flex.flex-auto.flex-justify-center.py-6, .project-header, .project-pane {
-    background: var(--bg);
-}
-
-.btn.btn-sm.btn-with-count {
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-}
-
-.donut-chart > .success {
-    fill: var(--green);
-}
-
-.donut-chart > .neutral, .donut-chart > .skipped, .donut-chart > .stale {
-    fill: var(--bg-lightest)
-}
-
-.progress-bar {
-    background: var(--bg-lightest)
-}
-
-.project-column {
-    background: var(--bg-light);
-    border-radius: 20px !important;
-}
-
-.project-card {
-    background: var(--bg-lighter)
-}
-
-.Label--success {
-    background-color: var(--green) !important;
-    border: none;
-    color: var(--text-color);
-}
-
-.select-menu-modal, .select-menu-filters, .select-menu-header {
-    background-color: var(--bg-light);
-    border: none;
-    box-shadow: none;
-}
-
-.session-authentication, .session-authentication .auth-form-body {
-    background: var(--bg);
-    border: none;
-}
-
-.notification-indicator .mail-status, .notification-indicator:hover .mail-status {
-    background: var(--accent);
-    border: 2px solid var(--bg);
-}
-
-.filter-item, .notifications-list-item .notification-list-item-link {
-    color: var(--text-color) !important;
-}
-
-.notifications-list-item.notification-archived, .notifications-list-item.notification-read {
-    background-color: var(--bg-light) !important;
-}
-
-.btn-danger, .btn-danger.disabled, .btn-danger:disabled, .btn-danger[aria-disabled="true"] {
-    background: var(--red);
-    color: var(--text-color)
-}
-
-.form-control, .form-select {
-    border: none;
-}
-
-.flash .octicon {
-    color: var(--text-color);
-}
-
-.range-editor, .branch-action-item, .cm-s-github-light.CodeMirror {
-    background: var(--bg);
-    border: none;
-}
-
-.form-group .form-control, .form-group .form-control:focus {
-    background-color: var(--bg-light);
-}
-
-.form-group.warn .warning {
-    background-color: var(--orange);
-    color: var(--text-color);
-    border: none;
-}
-
-.reponame-suggestion {
-    color: var(--green);
-}
-
-.form-group.required .form-group-header label::after, .form-group.required dt label::after {
-    color: var(--red);
-}
-
-.access-token.new-token {
-    background: var(--green)
-}
-
-.listgroup-item {
-    color: var(--text-color);
-}
-
-.form-select {
-    background-color: var(--bg);
-}
-
-.branch-action-body {
-    background: var(--bg);
-    border: none;
-}
-
-.merge-branch-description {
-    color: var(--text-color)
-}
-
-.hx_page-header-bg {
-    background: var(--bg);
-}
-
-.user-status-circle-badge {
-    background-color: var(--bg-lightest) !important;
-    box-shadow: none !important;
-}
-
-.delete-topic-button, .topic-tag, .topic-tag-action {
-    background: var(--accent);
-    color: var(--text-color);
-    border: none;
-}
-
-.review-thread-reply {
-    background: var(--bg);
-}
-
-.color-bg-info-inverse {
-    background: var(--accent) !important;
-    border-bottom-right-radius: 20px;
-}
-
-.commit .commit-title .issue-link {
-    color: var(--accent);
-}
-
-.rgh-conflict-marker svg {
-    color: var(--red);
-}
-
-.BorderGrid-cell {
-    border: none;
-}
-
-.flash > a {
-    color: var(--text-color);
-}
-
-.flash > a:hover {
-    color: var(--text-color);
-    text-decoration: none;
-}
-
-.SideNav-item {
-    background: var(--bg-light);
-    border: none;
-}
-
-.SideNav-item:hover, .SideNav-item[aria-current]:not([aria-current="false"]), .SideNav-item[aria-selected="true"] {
-    background: var(--bg-lightest)
-}
-
-.SideNav-item[aria-current]:not([aria-current="false"])::before, .SideNav-item[aria-selected="true"]::before {
-    background: var(--accent);
-}
-
-.flex-shrink-0.col-12.col-md-3.mb-4.mb-md-0 {
-    border-radius: 20px !important;
-}
-
-.color-text-inverse, .btn-link:disabled, .btn-link:disabled:hover, .btn-link[aria-disabled="true"], .btn-link[aria-disabled="true"]:hover, .discussion-sidebar-heading {
-    color: var(--text-color) !important;
-}
-
-.discussion-sidebar-item + .discussion-sidebar-item {
-    border: none;
-}
-
-.avatar {
-    box-shadow: none;
-}
-
-a.rgh-highest-rated-comment, .rgh-highest-rated-comment {
-    border: 2px solid var(--green) !important;
-}
-
-.avatar {
-    background: var(--bg-light) !important;
-}
-
-.text-right.hide-lg.hide-md.hide-sm.hide-xs.mt-2 > .tooltipped.tooltipped-s > svg > g > rect[style*=fill] {
-    fill: var(--green) !important;
-}
-
-.text-right.hide-lg.hide-md.hide-sm.hide-xs > .tooltipped.tooltipped-s > svg > g > rect[style*=fill] {
-    fill: var(--green) !important;
-}
-
-.tree-browser-result[aria-selected="true"] .octicon-chevron-right, .tree-browser-result mark {
-    color: var(--accent)
-}
-
-.tree-browser-result[aria-selected="true"] {
-    background: var(--bg-light) !important;
-    border-radius: 20px;
-}
-
-.Box-body.p-0.blob-wrapper.data.type-rust.gist-border-0.rgh-linkified-code {
-    background: var(--bg-light)
-}
-
-.BtnGroup-item:first-child {
-    border-radius: 20px;
-}
-
-.BtnGroup-item:last-child {
-    border-radius: 20px;
-    margin-left: 8px;
-}
-
-.rgh-hide-watch-and-fork-count details:not([open]) .btn[data-ga-click^="Repository, click Watch"] {
-    border-radius: 20px !important;    
-}
-
-.social-count, #sponsor-button-repo, .rgh-hide-watch-and-fork-count details:not([open]) .btn[data-ga-click^="Repository, click Watch"] {
-    border-bottom-right-radius: 20px !important;
-    border-top-right-radius: 20px;
-}
-
-.btn.btn-sm.btn-with-count, #sponsor-button-repo {
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
-}
-
-.CheckRun, .CheckRunContainer {
-    background: var(--bg);
-}
-
-.Box-header {
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
-.markdown-body table tr, .markdown-body table tr:nth-child(2n) {
-    background: var(--bg-light)
-}
-
-.markdown-body table tr, .markdown-body table td, .markdown-body table th {
-    border: none;
-}
-
-.markdown-body table {
-    border-radius: 20px;
-}
-
-.UnderlineNav {
-    box-shadow: none;   
-}
-
-.no-underline, a.no-underline {
-    color: var(--text-color)
-}
-
-.timeline-comment--caret::after, .timeline-comment--caret::before, .commit-form::after, .commit-form::before {
-    display: none !important;
-}
-
-.TimelineItem-avatar {
-    left: -57px;
-}
-
-.pr-toolbar.is-stuck {
-    background: var(--bg);
-}
-
-.color-text-link, .color-icon-info {
-    color: var(--accent) !important;
-}
-
-.color-icon-secondary {
-    color: var(--text-color) !important;
-}
-
-.tabnav-tab, .tabnav-tab .octicon {
-    color: var(--text-color)
-}
-
-.file-navigation-option .input-group .form-control {
-    background: var(--bg-light  )
-}
-
-.note, .breadcrumb-item-selected, .breadcrumb-item[aria-current]:not([aria-current="false"]) {
-    color: var(--text-color)
-}
-
-.social-reaction-summary-item:hover {
-    background: var(--bg-lightest)
-}
-
-.social-reaction-summary-item {
-    background: var(--bg-lighter)
-}
-
-.timeline-comment-label {
-    background: var(--accent)
-}
-
-.color-yellow-7 {
-    color: var(--yellow) !important;
-}
-
-.p-2.mt-n1.mb-n1.ml-n1.btn.btn-octicon.js-wiki-sidebar-toc-toggle-chevron-button {
-    background: var(--bg-light);
-}
-
-.filter-bar {
-    background: var(--bg-light);
-    border: none;
-}
-
-.Box-row.px-2.py-2 {
-    background: var(--bg-light);
-}
-
-.Box-row:last-of-type {
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-
-.flex-1.min-width-0 {
-    background: var(--bg);
-}
-
-.color-bg-info {
-    background: var(--accent-light)
-}
-
-.flex-1.d-flex.flex-items-center.ml-3.min-width-0 {
-    background: var(--bg-light)
-}
-
-.commit-ref, .vcard-detail .octicon {
-    color: var(--text-color)
-}
-
-.activity-overview-label, .activity-overview-percentage {
-    fill: var(--text-color)
-}
-
-.SelectMenu-item, .SelectMenu-header {
-    border: none;
-}
-
-.CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like, .cm-s-github-light .CodeMirror-linenumber, .btn-link.code.px-3.px-sm-6.px-lg-3.flex-1.flex-md-auto.selected.tabnav-tab.js-blob-edit-code.js-blob-edit-tab, .blob-num, .blob-code-inner {
-    background: var(--bg-light) !important;
-}
-
-.btn-link.code.px-3.px-sm-6.px-lg-3.flex-1.flex-md-auto.selected.tabnav-tab.js-blob-edit-code.js-blob-edit-tab {
-    border-top-left-radius: 20px;
-}
-
-.commit-create .CodeMirror {
-    padding-top: 0;
-}
-
-.blob-num {
-    color: var(--text-color)
-}   
-
-.discussion-post .reply-comment:first-child, .discussion-post .reply-comment {
-    background: var(--bg);
-    border: none;
-}
-
-.border-top {
-    border: none !important;
-}
-
-.ajax-pagination-form.js-ajax-pagination.border-top {
-    background: var(--bg);
-}
-
-.border.rounded.color-shadow-medium.color-bg-primary {
-    background: var(--bg-light) !important;
-    border-radius: 20px !important;
-    box-shadow: none !important;
-}
-
-hr, .rule {
-    border: none;
-}
-
-.rgh-clean-dashboard .news > .f4 + div, .rgh-clean-dashboard .dashboard-rollup-items .body {
-    border: none !important;
-}
-
-.gisthead {
-    background: var(--bg);
-}
-
-.user-mention {
-    background: transparent !important;
-    color: var(--text-color) !important;
-}
-
-.rgh-clean-pinned-issues .pinned-issue-item, .rgh-clean-pinned-issues .js-pinned-issues-reorder-list {
-    box-shadow: none !important;
-}
-
-#js-issues-toolbar {
-    border-radius: 20px;
-}
-
-#repository-container-header[style*=background-color] {
-    background-color: var(--bg) !important;
-}
-
-.color-bg-default {
-    background-color: var(--bg) !important;
-}
-
-.color-bg-success-emphasis {
-    background-color: var(--accent) !important;
-}
-
-.color-fg-muted, .TimelineItem-body {
-    color: var(--text-color) !important;
-}
-
-.d-inline-flex.flex-row.flex-items-center.text-small > span > svg > circle[style*=stroke] {
-    stroke: var(--accent) !important;
-}
-
-.avatar {
-    border-radius: 20px;
-}
-
-.position-absolute.right-0.left-0.bottom-0.text-center[style*=background], .color-bg-subtle {
-    background: var(--bg) !important;
-}
-
-.copyable-terminal {
-    background: var(--bg-light);
-    border-radius: 20px;
-}
-
-.flash > a {
-    padding: 5px 16px;
-    border-radius: 100px;
-}
-
-.blob-code-inner.blob-code-marker.rgh-observing-whitespace {
-    background: transparent !important;
-}
-
-.flex-auto.col-md-8.col-lg-8.px-3.px-lg-5 {
-    background: var(--bg);
-}
-
-.Link--primary {
-    color: var(--text-color) !important;
-	}
+    :root {
+        --inner-core: #161616;
+        --outer-core: #202020;
+        --mantle: #252525; 
+        --crust: #303030;
+        --tropo: #3281ea;
+        --strato: #0284e8;
+        --meso: #02a3e8;
+        --thermo: #02bbe8;
+        --text: #f3f3f3;
+        --white: #d4d7db;
+        --aurora: #05844A;
+        --magma: #B10C0C;
+    }
+    
+    body {
+        background: var(--inner-core);
+        color: var(--text)
+    }
+    
+    .Box, .color-bg-primary, .gh-header, .Box-row--gray {
+        background: var(--outer-core) !important;
+        border-radius: 20px !important;
+    }
+    
+    .Box--responsive, .Box-header--blue, .Box-row {
+        border: none;
+    }
+    
+    .Box-header--blue {
+        background: var(--outer-core)
+    }
+    
+    .Box.mb-3 {
+        background: var(--outer-core) !important;
+        border-radius: 20px !important;
+        border: none;
+    }
+    
+    .Box-header--blue {
+        border-radius: 20px;
+    }
+    
+    a {
+        color: var(--tropo)
+    }
+    
+    .color-bg-secondary, .timeline-comment, .timeline-comment-header, .gh-header .gh-header-sticky.is-stuck + .gh-header-shadow, .color-bg-tertiary, .color-bg-canvas-inset, .markdown-body img, .rgh-clean-dashboard .js-news-feed-event-group, .rgh-clean-dashboard .dashboard .flex-items-baseline.py-3 {
+        background: var(--outer-core) !important;
+        color: var(--text);
+        border: none;
+    }
+    
+    .Header, .header-search-wrapper, .jump-to-field-active {
+        background: var(--outer-core)
+    }
+    
+    .timeline-comment--caret::before {
+        background-color: var(--inner-core) !important;
+    }
+    
+    .State--open {
+        background: var(--aurora);
+        color: var(--text);
+        border: none;
+    }
+    
+    .gh-header-meta, .Link--secondary, .color-text-secondary, .color-text-tertiary, .UnderlineNav-octicon, .UnderlineNav-item {
+        color: var(--text) !important;
+    }
+    
+    .Link--secondary:hover, .social-count:hover {
+        color: var(--tropo) !important;
+    }
+    
+    .jump-to-suggestions-results-container .navigation-focus .jump-to-suggestions-path, .jump-to-suggestions-results-container [aria-selected="true"] .jump-to-suggestions-path {
+        background: var(--tropo);
+        border: none;
+    }
+    
+    .jump-to-suggestions {
+        box-shadow: none;
+        border-radius: 20px;
+        border: none;
+    }
+    
+    .UnderlineNav .Counter {
+        background: var(--crust);
+        color: var(--text);
+    }
+    
+    .UnderlineNav-item.selected, .UnderlineNav-item[aria-current]:not([aria-current="false"]), .UnderlineNav-item[role="tab"][aria-selected="true"] {
+        border-bottom-color: var(--tropo)
+    }
+    
+    .btn.hover, .btn:hover, [open] > .btn, .btn, .social-count {
+        background: var(--outer-core);
+        border: none;
+    }
+    
+    .text-pink {
+        color: var(--tropo) !important;
+    }
+    
+    .btn .octicon, .subnav-search-icon, .subnav-search-input, .subnav-search-input::placeholder {
+        color: var(--text);
+    }
+    
+    .SelectMenu-modal {
+        border: none;
+        border-radius: 20px;
+        background: var(--outer-core);
+        box-shadow: none;
+    }
+    
+    .SelectMenu-item, .SelectMenu-list {
+        background: var(--outer-core);
+    }
+    
+    .menu {
+        background: var(--outer-core);
+        border-radius: 20px;
+        border: none;
+    }
+    
+    .menu-item, .repo-language-color {
+        border: none;
+    }
+    
+    .input-contrast, .input-contrast:focus {
+        background: var(--outer-core);
+        border: none;
+    }
+    
+    .form-control.focus, .form-control:focus, .form-select.focus, .form-select:focus {
+        box-shadow: none;
+    }
+    
+    .open.octicon {
+        color: var(--aurora)
+    }
+    
+    .Link--primary:hover, .p-label:hover, .team-mention:hover, .user-mention:hover, .Link--muted:hover {
+        color: var(--tropo) !important;
+    }
+    
+    .p-label, .repo {
+        color: var(--text)
+    }
+    
+    .color-border-secondary, .border-bottom, .py-3, .rgh-clean-dashboard .dashboard .js-all-activity-header + div {
+        border: none !important;
+    }
+    
+    .Link--muted {
+         color: var(--text) !important;
+    }
+    
+    .rgh-clean-dashboard .dashboard .flex-items-baseline .f6.mt-2 {
+        opacity: 100% !important;
+    }
+    
+    .input-contrast::placeholder {
+        color: var(--text)
+    }
+    
+    .f4 > a {
+        color: var(--text)
+    }
+    
+    .owner .text-normal, .btn-primary.disabled, .btn-primary:disabled, .btn-primary[aria-disabled="true"] {
+        color: var(--text) !important;
+    }
+    
+    .text-bold.min-width-0.flex-auto > span, .text-bold.min-width-0.flex-auto, .TimelineItem-badge {
+        color: var(--text)
+    }
+    
+    .color-text-success {
+        color: var(--aurora) !important;
+    }
+    
+    .discussion-timeline-actions, .page-responsive .previewable-comment-form .comment-form-head.tabnav, .tabnav-tab.selected, .tabnav-tab[aria-current]:not([aria-current="false"]), .tabnav-tab[aria-selected="true"], .timeline-comment--caret.current-user::before {
+        background: var(--inner-core);
+        border: none;
+    }
+    
+    .TimelineItem::before, .TimelineItem-badge {
+        background: var(--crust) !important;
+        border: none;
+    }
+    
+    .TimelineItem-badge {
+        background: var(--tropo) !important;
+    }
+    
+    .color-text-danger {
+        color: var(--magma) !important;
+    }
+    
+    .btn-primary.disabled, .btn-primary:disabled, .btn-primary[aria-disabled="true"] {
+        background: var(--aurora);
+        border: none;
+        opacity: 70%
+    }
+    
+    .dropdown-menu, .merge-status-item, .merge-status-list {
+        background: var(--outer-core);
+        border: none;
+        box-shadow: none;
+        border-radius: 20px;
+    }
+    
+    .checks-list-item.selected .checks-list-item-name {
+        background: var(--tropo) !important;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    
+    .color-bg-success-inverse {
+        background: var(--aurora) !important;
+    }
+    
+    .commit-ref {
+        border-radius: 10px;
+        background: var(--tropo)
+    }
+    
+    .commit-ref > .css-truncate-target > a {
+        color: var(--text)
+    }
+    
+    .full-commit, .full-commit .commit-meta, .file {
+        background: var(--inner-core);
+        border: none;
+    }
+    
+    .file-header, .file {
+        background: var(--outer-core);
+        border-radius: 20px;
+    }
+    
+    .js-expandable-line:hover .blob-num:not(:hover) .directional-expander:first-child, .js-expandable-line:hover .blob-num:not(:hover) + .blob-code, .blob-num-expandable .directional-expander:hover, .blob-num-expandable .directional-expander, tr.js-expandable-line:nth-child(16) > td:nth-child(2), .blob-expanded .blob-code, .blob-expanded .blob-num, .btn.selected, .btn[aria-selected="true"] {
+        background: var(--outer-core) !important;
+    }
+    
+    tr.js-expandable-line:nth-child(56) > td:nth-child(2) {
+        background: var(--outer-core) !important;
+    }
+    
+    tr:not(.blob-expanded) + .blob-expanded .blob-code, tr:not(.blob-expanded) + .blob-expanded .blob-num, .blob-expanded + tr:not(.blob-expanded) .blob-code, .blob-expanded + tr:not(.blob-expanded) .blob-num {
+        border: none;
+    }
+    
+    tr.js-expandable-line:nth-child(16) {
+        border-bottom-left-radius: 20px !important;
+    }
+    
+    .js-expandable-line:hover .blob-num:not(:hover) .directional-expander:first-child, .js-expandable-line:hover .blob-num:not(:hover) + .blob-code {
+        background: var(--tropo) !important;
+    }
+    
+    .blob-code-deletion .x, .blob-code-deletion, .blob-num-deletion {
+        background: var(--magma)
+    }
+    
+    .blob-code-addition, .blob-code-addition .x, .blob-num-addition {
+        background: var(--aurora)
+    }
+    
+    .blob-num-addition, .commit-branches {
+        color: var(--text)
+    }
+    
+    .blob-code-inner, .blob-code-deletion .x, .blob-code-addition .x {
+        color: #FFFFFF
+    }
+    
+    .pl-smw, .pl-v {
+        color: var(--thermo)
+    }
+    
+    .blob-num-deletion {
+        color: var(--text)
+    }
+    
+    .upload-enabled.focused {
+        box-shadow: none;
+    }
+    
+    .upload-enabled textarea {
+        border: none;
+    }
+    
+    .btn-link, .btn-outline:hover, [open] > .btn-outline, .btn-outline, [open] > .btn-outline {
+        color: var(--tropo);
+    }
+    
+    .diffstat-block-added {
+        outline: none;
+        background: var(--aurora)
+    }
+    
+    .diffstat-block-deleted {
+        outline: none;
+        background: var(--magma);
+    }
+    
+    .diffstat-block-neutral {
+        outline: none;
+        background: var(--crust)
+    }
+    
+    a > .css-truncate, .follow-list .follow-list-info {
+        color: var(--text); 
+    }
+    
+    .tabnav-tab, .Counter {
+        border: none;
+    }
+    
+    .Counter {
+        background: var(--crust)
+    }
+    
+    .btn-outline.disabled, .btn-outline:disabled, .btn-outline[aria-disabled="true"], .BtnGroup > a {
+        background: var(--outer-core);
+        color: var(--text);
+    }
+    
+    .btn-outline:disabled:hover {
+        color: var(--tropo)
+    }
+    
+    .Box {
+        border: none;
+        box-shadow: none !important;
+    }
+    
+    .border, .dropdown-divider {
+        border: none !important;
+    }
+    
+    #feature-enrollment-toggle > button {
+        color: var(--text);
+    }
+    
+    .dropdown-item:focus, .dropdown-item:hover {
+        background: var(--tropo)
+    }
+    
+    .css-truncate.css-truncate-target.width-fit.color-text-primary.text-left > span:hover, .js-user-status-details.details-reset.details-overlay.details-overlay-dark:hover {
+        color: var(--tropo)
+    }
+    
+    .Box-header {
+        background: var(--outer-core);
+        border: none;
+    }
+    
+    .blankslate p, .blankslate-icon, .issue-meta-section .octicon, .TimelineItem--condensed .TimelineItem-badge {
+        color: var(--text)
+    }
+    
+    .subnav-item.selected, .subnav-item[aria-current]:not([aria-current="false"]), .subnav-item[aria-selected="true"] {
+        background: var(--tropo);
+        border: none;
+    }
+    
+    .merged.octicon {
+        color: var(--strato)
+    }
+    
+    .TimelineItem-badge.color-text-white.color-bg-danger-inverse[style*=background-color] {
+        --color-done-emphasis: var(--magma) !important;
+    }
+    
+    .issue-closed-done .octicon-issue-closed, .issue-closed-done .octicon-issue-closed.closed {
+        color: var(--magma)
+    }
+    
+    .js-issue-row .text-gray [aria-label*="approval"]::before, .js-issue-row .color-text-secondary [aria-label*="approval"]::before {
+        color: var(--aurora) !important;
+    }
+    
+    .rgh-collaborator {
+        border: none !Important;
+    }
+    
+    .State--merged, .rgh-clean-conversation-headers-non-default-branch {
+        color: var(--text);
+        background: var(--strato);
+        border: none;
+    }
+    
+    .signed-commit-badge.verified:hover {
+        border: none;
+    }
+    
+    .signed-commit-badge.verified, .signed-commit-verified-label, .signed-commit-header .octicon-verified {
+        color: var(--aurora)
+    }
+    
+    .TimelineItem-break {
+        background: var(--inner-core);
+        border: none;
+    }
+    
+    .btn {
+        border-radius: 10px;
+    }
+    
+    .diffbar, .signed-commit-header, .ajax-pagination-form .ajax-pagination-btn:focus, .ajax-pagination-form .ajax-pagination-btn:hover, .ajax-pagination-form .ajax-pagination-btn:focus, .ajax-pagination-form .ajax-pagination-btn {
+        background: var(--inner-core);
+        color: var(--text);
+    }
+    
+    .State--closed {
+        background: var(--magma);
+        color: var(--text);
+        border: none;
+    }
+    
+    .markdown-body code, .markdown-body tt {
+        background: var(--crust)
+    }
+    
+    .filter-item.selected, .filter-item[aria-current]:not([aria-current="false"]), .filter-item[aria-selected="true"] {
+        background: var(--tropo)
+    }
+    
+    .subnav-item {
+        border: none;
+    }
+    
+    .color-bg-canvas {
+        background: var(--inner-core) !important;
+    }
+    
+    .Progress-item.rounded-2[style*="background-color"] {
+        background-color: var(--aurora) !important;
+    }
+    
+    .ContributionCalendar-day, .ContributionCalendar-day[data-level="0"] {
+        fill: var(--crust)
+    }
+    
+    .ContributionCalendar-day[data-level="1"] {
+        fill: var(--tropo);   
+    }
+    
+    .ContributionCalendar-day[data-level="2"] {
+        fill: var(--strato);
+    }
+    
+    .ContributionCalendar-day[data-level="3"] {
+        fill: var(--meso);      
+    }
+    
+    .ContributionCalendar-day[data-level="4"] {
+        fill: var(--thermo);   
+    }
+    
+    .gist-snippet .link-overlay .link {
+        background: var(--tropo);
+        border-bottom-left-radius: 10px;
+    }
+    
+    .form-control {
+        background-color: var(--outer-core);
+    }
+    
+    .markdown-body .highlight pre, .markdown-body pre {
+        background: var(--outer-core)
+    }
+    
+    .flash {
+        background-color: var(--tropo);
+        border: none;
+        border-radius: 20px;
+        color: var(--text);
+    }
+    
+    .label.color-bg-info-inverse {
+        background-color: var(--tropo) !important;
+        border: none;
+        color: var(--text);
+        text-transform: lowercase !important;
+    }
+    
+    .hx_color-icon-directory, .color-icon-tertiary, .Counter--secondary {
+        color: var(--text) !important;
+    }
+    
+    .Box-body.p-0.blob-wrapper.data.type-text.gist-border-0.rgh-linkified-code {
+        background-color: var(--outer-core)
+    }
+    
+    .menu-item.selected, .menu-item[aria-current]:not([aria-current="false"]), .menu-item[aria-selected="true"], .menu-item:hover {
+        background-color: var(--mantle)
+    }
+    
+    .menu-item.selected::before, .menu-item[aria-current]:not([aria-current="false"])::before, .menu-item[aria-selected="true"]::before {
+        background: var(--tropo)
+    }
+    
+    .Box-row--focus-gray.navigation-focus {
+        background-color: var(--mantle)
+    }
+    
+    .community-checklist .checklist-dot {
+        color: var(--orange)
+    }
+    
+    .d-flex.flex-auto.flex-justify-center.py-6, .project-header, .project-pane {
+        background: var(--inner-core);
+    }
+    
+    .btn.btn-sm.btn-with-count {
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    
+    .donut-chart > .success {
+        fill: var(--aurora);
+    }
+    
+    .donut-chart > .neutral, .donut-chart > .skipped, .donut-chart > .stale {
+        fill: var(--crust)
+    }
+    
+    .progress-bar {
+        background: var(--crust)
+    }
+    
+    .project-column {
+        background: var(--outer-core);
+        border-radius: 20px !important;
+    }
+    
+    .project-card {
+        background: var(--mantle)
+    }
+    
+    .Label--success {
+        background-color: var(--aurora) !important;
+        border: none;
+        color: var(--text);
+    }
+    
+    .select-menu-modal, .select-menu-filters, .select-menu-header {
+        background-color: var(--outer-core);
+        border: none;
+        box-shadow: none;
+    }
+    
+    .session-authentication, .session-authentication .auth-form-body {
+        background: var(--inner-core);
+        border: none;
+    }
+    
+    .notification-indicator .mail-status, .notification-indicator:hover .mail-status {
+        background: var(--tropo);
+        border: 2px solid var(--inner-core);
+    }
+    
+    .filter-item, .notifications-list-item .notification-list-item-link {
+        color: var(--text) !important;
+    }
+    
+    .notifications-list-item.notification-archived, .notifications-list-item.notification-read {
+        background-color: var(--outer-core) !important;
+    }
+    
+    .btn-danger, .btn-danger.disabled, .btn-danger:disabled, .btn-danger[aria-disabled="true"] {
+        background: var(--magma);
+        color: var(--text)
+    }
+    
+    .form-control, .form-select {
+        border: none;
+    }
+    
+    .flash .octicon {
+        color: var(--text);
+    }
+    
+    .range-editor, .branch-action-item, .cm-s-github-light.CodeMirror {
+        background: var(--inner-core);
+        border: none;
+    }
+    
+    .form-group .form-control, .form-group .form-control:focus {
+        background-color: var(--outer-core);
+    }
+    
+    .form-group.warn .warning {
+        background-color: var(--orange);
+        color: var(--text);
+        border: none;
+    }
+    
+    .reponame-suggestion {
+        color: var(--aurora);
+    }
+    
+    .form-group.required .form-group-header label::after, .form-group.required dt label::after {
+        color: var(--magma);
+    }
+    
+    .access-token.new-token {
+        background: var(--aurora)
+    }
+    
+    .listgroup-item {
+        color: var(--text);
+    }
+    
+    .form-select {
+        background-color: var(--inner-core);
+    }
+    
+    .branch-action-body {
+        background: var(--inner-core);
+        border: none;
+    }
+    
+    .merge-branch-description {
+        color: var(--text)
+    }
+    
+    .hx_page-header-bg {
+        background: var(--inner-core);
+    }
+    
+    .user-status-circle-badge {
+        background-color: var(--crust) !important;
+        box-shadow: none !important;
+    }
+    
+    .delete-topic-button, .topic-tag, .topic-tag-action {
+        background: var(--tropo);
+        color: var(--text);
+        border: none;
+    }
+    
+    .review-thread-reply {
+        background: var(--inner-core);
+    }
+    
+    .color-bg-info-inverse {
+        background: var(--tropo) !important;
+        border-bottom-right-radius: 20px;
+    }
+    
+    .commit .commit-title .issue-link {
+        color: var(--tropo);
+    }
+    
+    .rgh-conflict-marker svg {
+        color: var(--magma);
+    }
+    
+    .BorderGrid-cell {
+        border: none;
+    }
+    
+    .flash > a {
+        color: var(--text);
+    }
+    
+    .flash > a:hover {
+        color: var(--text);
+        text-decoration: none;
+    }
+    
+    .SideNav-item {
+        background: var(--outer-core);
+        border: none;
+    }
+    
+    .SideNav-item:hover, .SideNav-item[aria-current]:not([aria-current="false"]), .SideNav-item[aria-selected="true"] {
+        background: var(--crust)
+    }
+    
+    .SideNav-item[aria-current]:not([aria-current="false"])::before, .SideNav-item[aria-selected="true"]::before {
+        background: var(--tropo);
+    }
+    
+    .flex-shrink-0.col-12.col-md-3.mb-4.mb-md-0 {
+        border-radius: 20px !important;
+    }
+    
+    .color-text-inverse, .btn-link:disabled, .btn-link:disabled:hover, .btn-link[aria-disabled="true"], .btn-link[aria-disabled="true"]:hover, .discussion-sidebar-heading {
+        color: var(--text) !important;
+    }
+    
+    .discussion-sidebar-item + .discussion-sidebar-item {
+        border: none;
+    }
+    
+    .avatar {
+        box-shadow: none;
+    }
+    
+    a.rgh-highest-rated-comment, .rgh-highest-rated-comment {
+        border: 2px solid var(--aurora) !important;
+    }
+    
+    .avatar {
+        background: var(--outer-core) !important;
+    }
+    
+    .text-right.hide-lg.hide-md.hide-sm.hide-xs.mt-2 > .tooltipped.tooltipped-s > svg > g > rect[style*=fill] {
+        fill: var(--aurora) !important;
+    }
+    
+    .text-right.hide-lg.hide-md.hide-sm.hide-xs > .tooltipped.tooltipped-s > svg > g > rect[style*=fill] {
+        fill: var(--aurora) !important;
+    }
+    
+    .tree-browser-result[aria-selected="true"] .octicon-chevron-right, .tree-browser-result mark {
+        color: var(--tropo)
+    }
+    
+    .tree-browser-result[aria-selected="true"] {
+        background: var(--outer-core) !important;
+        border-radius: 20px;
+    }
+    
+    .Box-body.p-0.blob-wrapper.data.type-rust.gist-border-0.rgh-linkified-code {
+        background: var(--outer-core)
+    }
+    
+    .BtnGroup-item:first-child {
+        border-radius: 20px;
+    }
+    
+    .BtnGroup-item:last-child {
+        border-radius: 20px;
+        margin-left: 8px;
+    }
+    
+    .rgh-hide-watch-and-fork-count details:not([open]) .btn[data-ga-click^="Repository, click Watch"] {
+        border-radius: 20px !important;    
+    }
+    
+    .social-count, #sponsor-button-repo, .rgh-hide-watch-and-fork-count details:not([open]) .btn[data-ga-click^="Repository, click Watch"] {
+        border-bottom-right-radius: 20px !important;
+        border-top-right-radius: 20px;
+    }
+    
+    .btn.btn-sm.btn-with-count, #sponsor-button-repo {
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+    
+    .CheckRun, .CheckRunContainer {
+        background: var(--inner-core);
+    }
+    
+    .Box-header {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    
+    .markdown-body table tr, .markdown-body table tr:nth-child(2n) {
+        background: var(--outer-core)
+    }
+    
+    .markdown-body table tr, .markdown-body table td, .markdown-body table th {
+        border: none;
+    }
+    
+    .markdown-body table {
+        border-radius: 20px;
+    }
+    
+    .UnderlineNav {
+        box-shadow: none;   
+    }
+    
+    .no-underline, a.no-underline {
+        color: var(--text)
+    }
+    
+    .timeline-comment--caret::after, .timeline-comment--caret::before, .commit-form::after, .commit-form::before {
+        display: none !important;
+    }
+    
+    .TimelineItem-avatar {
+        left: -57px;
+    }
+    
+    .pr-toolbar.is-stuck {
+        background: var(--inner-core);
+    }
+    
+    .color-text-link, .color-icon-info {
+        color: var(--tropo) !important;
+    }
+    
+    .color-icon-secondary {
+        color: var(--text) !important;
+    }
+    
+    .tabnav-tab, .tabnav-tab .octicon {
+        color: var(--text)
+    }
+    
+    .file-navigation-option .input-group .form-control {
+        background: var(--outer-core  )
+    }
+    
+    .note, .breadcrumb-item-selected, .breadcrumb-item[aria-current]:not([aria-current="false"]) {
+        color: var(--text)
+    }
+    
+    .social-reaction-summary-item:hover {
+        background: var(--crust)
+    }
+    
+    .social-reaction-summary-item {
+        background: var(--mantle)
+    }
+    
+    .timeline-comment-label {
+        background: var(--tropo)
+    }
+    
+    .color-yellow-7 {
+        color: var(--yellow) !important;
+    }
+    
+    .p-2.mt-n1.mb-n1.ml-n1.btn.btn-octicon.js-wiki-sidebar-toc-toggle-chevron-button {
+        background: var(--outer-core);
+    }
+    
+    .filter-bar {
+        background: var(--outer-core);
+        border: none;
+    }
+    
+    .Box-row.px-2.py-2 {
+        background: var(--outer-core);
+    }
+    
+    .Box-row:last-of-type {
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    
+    .flex-1.min-width-0 {
+        background: var(--inner-core);
+    }
+    
+    .color-bg-info {
+        background: var(--strato)
+    }
+    
+    .flex-1.d-flex.flex-items-center.ml-3.min-width-0 {
+        background: var(--outer-core)
+    }
+    
+    .commit-ref, .vcard-detail .octicon {
+        color: var(--text)
+    }
+    
+    .activity-overview-label, .activity-overview-percentage {
+        fill: var(--text)
+    }
+    
+    .SelectMenu-item, .SelectMenu-header {
+        border: none;
+    }
+    
+    .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like, .cm-s-github-light .CodeMirror-linenumber, .btn-link.code.px-3.px-sm-6.px-lg-3.flex-1.flex-md-auto.selected.tabnav-tab.js-blob-edit-code.js-blob-edit-tab, .blob-num, .blob-code-inner {
+        background: var(--outer-core) !important;
+    }
+    
+    .btn-link.code.px-3.px-sm-6.px-lg-3.flex-1.flex-md-auto.selected.tabnav-tab.js-blob-edit-code.js-blob-edit-tab {
+        border-top-left-radius: 20px;
+    }
+    
+    .commit-create .CodeMirror {
+        padding-top: 0;
+    }
+    
+    .blob-num {
+        color: var(--text)
+    }   
+    
+    .discussion-post .reply-comment:first-child, .discussion-post .reply-comment {
+        background: var(--inner-core);
+        border: none;
+    }
+    
+    .border-top {
+        border: none !important;
+    }
+    
+    .ajax-pagination-form.js-ajax-pagination.border-top {
+        background: var(--inner-core);
+    }
+    
+    .border.rounded.color-shadow-medium.color-bg-primary {
+        background: var(--outer-core) !important;
+        border-radius: 20px !important;
+        box-shadow: none !important;
+    }
+    
+    hr, .rule {
+        border: none;
+    }
+    
+    .rgh-clean-dashboard .news > .f4 + div, .rgh-clean-dashboard .dashboard-rollup-items .body {
+        border: none !important;
+    }
+    
+    .gisthead {
+        background: var(--inner-core);
+    }
+    
+    .user-mention {
+        background: transparent !important;
+        color: var(--text) !important;
+    }
+    
+    .rgh-clean-pinned-issues .pinned-issue-item, .rgh-clean-pinned-issues .js-pinned-issues-reorder-list {
+        box-shadow: none !important;
+    }
+    
+    #js-issues-toolbar {
+        border-radius: 20px;
+    }
+    
+    #repository-container-header[style*=background-color] {
+        background-color: var(--inner-core) !important;
+    }
+    
+    .color-bg-default {
+        background-color: var(--inner-core) !important;
+    }
+    
+    .color-bg-success-emphasis {
+        background-color: var(--tropo) !important;
+    }
+    
+    .color-fg-muted, .TimelineItem-body {
+        color: var(--text) !important;
+    }
+    
+    .d-inline-flex.flex-row.flex-items-center.text-small > span > svg > circle[style*=stroke] {
+        stroke: var(--tropo) !important;
+    }
+    
+    .avatar {
+        border-radius: 20px;
+    }
+    
+    .position-absolute.right-0.left-0.bottom-0.text-center[style*=background], .color-bg-subtle {
+        background: var(--inner-core) !important;
+    }
+    
+    .copyable-terminal {
+        background: var(--outer-core);
+        border-radius: 20px;
+    }
+    
+    .flash > a {
+        padding: 5px 16px;
+        border-radius: 100px;
+    }
+    
+    .blob-code-inner.blob-code-marker.rgh-observing-whitespace {
+        background: transparent !important;
+    }
+    
+    .flex-auto.col-md-8.col-lg-8.px-3.px-lg-5 {
+        background: var(--inner-core);
+    }
+    
+    .Link--primary {
+        color: var(--text) !important;
+    }
+    
+    .Box--responsive .Box-header {
+        background: var(--outer-core) !important;
+        border-top-left-radius: 20px !important;
+        border-top-right-radius: 20px !important;
+    }
+    
+    .Box-body {
+        background: var(--outer-core) !important;
+        border-radius: 20px !important;
+    }
+    
+    .rgh-clean-dashboard .news > .f4 + div {
+        border-radius: 20px !important; 
+    }
+    
+    .orghead {
+        background: var(--inner-core)
+    }
+    
+    .Box-row:hover {
+        background: var(--mantle)
+    }
 }
