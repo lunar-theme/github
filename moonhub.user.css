@@ -1,13 +1,13 @@
 /* ==UserStyle==
-@name         moonhub
-@description a github theme inspired by space 🚀
-@namespace    https://github.com/lunar-theme/moonhub
-@homepageURL  https://github.com/lunar-theme/moonhub
-@supportURL   https://github.com/lunar-theme/moonhub/issues
-@updateURL    https://github.com/lunar-theme/moonhub/raw/main/moonhub.user.css
+@name         Lunar for GitHub
+@description 🌜 A space-inspired theme for GitHub
+@namespace    https://github.com/lunar-theme/github
+@homepageURL  https://github.com/lunar-theme/github
+@supportURL   https://github.com/lunar-theme/github/issues
+@updateURL    https://github.com/lunar-theme/github/raw/main/lunarhub.user.css
 @author       sheep <hi@sheepdev.xyz> (https://sheepdev.xyz)
-@version      2.1.0
-@license      CC-BY-4.0
+@version      2.2.0
+@license      GPL-3.0
 ==/UserStyle== */
 
 @-moz-document domain('github.com') {

@@ -1,6 +1,9 @@
-<h1 align="center">moonhub</h1>
+<p align="center">
+    <img src="https://raw.githubusercontent.com/lunar-theme/lunar/main/assets/icon-rounded.png" width="80" />
+    <h2 align="center">Lunar for GitHub</h2>
+</p>
 
-![[Banner]](https://socialify.git.ci/lunar-theme/moonhub/image?description=1&descriptionEditable=a%20github%20theme%20inspired%20by%20space%20%F0%9F%9A%80&font=Raleway&language=1&name=1&owner=1&theme=Dark)
+<p align="center">🌜 A space-inspired theme for GitHub</p>
 
 ## 🖼️  Gallery
 
@@ -13,7 +16,7 @@
 
 For now dark mode is **required** for the theme to work.
 
-[Click here to install moonhub](https://github.com/lunar-theme/moonhub/raw/main/moonhub.user.css)
+[Click here to install moonhub](https://github.com/lunar-theme/github/raw/main/lunarhub.user.css)
 
 
 ## 🎨 Recommended extensions and styles
@@ -26,16 +29,6 @@ For now dark mode is **required** for the theme to work.
 🍴 [Lovely Forks](https://github.com/musically-ut/lovely-forks) | Shows notable forks of GitHub projects
 
 🕴️ [Hide Files](https://github.com/sindresorhus/hide-files-on-github#install) | Hides nonessential files on github
-
-
-## 👤 Author
-
-🐏 **sheep**
-
-* 🌐 Website: https://sheepdev.xyz
-* 🐦 Twitter: [@imsheeeep](https://twitter.com/imsheeeep)
-* 💻 GitHub: [@sheeepdev](https://github.com/sheeepdev)
-* 💬 Discord: [sheep#2428](https://discord.com/users/429303151598895106)
 
 ## 🤝 Contributing
 
@@ -53,4 +46,4 @@ Colors are changable by editing the variables in the file.
 ## 📩 License
 
 Copyright © 2021 [sheepdev](https://sheepdev.xyz/)<br />
-This project is licensed under the [CC-BY-4.0](https://github.com/lunar-theme/moonhub/blob/main/LICENSE) license.
+This project is licensed under the [GPL-3.0](https://github.com/lunar-theme/github/blob/main/LICENSE).
