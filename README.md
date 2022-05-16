@@ -7,7 +7,7 @@
 
 ## 🖼️  Gallery
 
-![Preview](./img/preview.png)
+![Preview](./assets/preview.png)
 
 ## ❗ Prerequisites
 [Stylus browser extension](https://github.com/openstyles/stylus#releases)
@@ -16,7 +16,7 @@
 
 For now dark mode is **required** for the theme to work.
 
-[Click here to install moonhub](https://github.com/lunar-theme/github/raw/main/lunarhub.user.css)
+[Click here to install Lunar for GitHub](https://github.com/lunar-theme/github/raw/main/github.user.css)
 
 
 ## 🎨 Recommended extensions and styles
