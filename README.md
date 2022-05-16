@@ -16,8 +16,7 @@
 
 For now dark mode is **required** for the theme to work.
 
-[Click here to install Lunar for GitHub](https://github.com/lunar-theme/github/raw/main/github.user.css)
-
+<a href="https://raw.githubusercontent.com/lunar-theme/github/main/github.user.css"><img src="https://img.shields.io/badge/Install%20with-Stylus-%233281ea" alt="Install with Stylus"/></a>
 
 ## 🎨 Recommended extensions and styles
 
