@@ -1020,4 +1020,32 @@
     .Box-row:hover {
         background: var(--mantle)
     }
+    
+    .rgh-clean-dashboard [role="tabpanel"] [data-repository-hovercards-enabled] > [class] > .body, .rgh-clean-dashboard .news > [data-repository-hovercards-enabled] > [class] > .body, .rgh-clean-dashboard .dashboard .flex-items-baseline.py-3, .rgh-clean-dashboard .dashboard .body > .border-bottom {
+        border: none;
+        border-radius: 20px !important;
+    }
+    
+    .btn-octicon, .ActionList-sectionDivider .ActionList-sectionDivider-title {
+        color: var(--text)
+    }
+    
+    .UnderlineNav-item.selected::after, .UnderlineNav-item[role="tab"][aria-selected="true"]::after, .UnderlineNav-item[aria-current]:not([aria-current="false"])::after, .ActionList-item.ActionList-item--navActive:not(.ActionList-item--danger)::after {
+        background: var(--tropo)
+    }
+    
+    .UnderlineNav-octicon, .ActionList-item-visual, .ActionList-item-action, .ActionList-item-label {
+        color: var(--text);
+        fill: var(--text);
+    }
+    
+    .color-bg-default.p-3.mt-2.border.color-border-muted.rounded-1.color-shadow-medium.width-full {
+        background: var(--outer-core) !important;
+        border-radius: 20px !important;
+        box-shadow: none !important;
+    }
+    
+    .blob-code-inner {
+        font-family: FiraCode NF;
+    }
 }
